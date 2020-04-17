@@ -20,6 +20,8 @@ Edit file below with nano and insert block of information inside file <b>dav_snv
 
 **`nano /etc/apache2/mods-enabled/dav_svn.conf`**
 
+```
+
 <Location /svn>
      DAV svn
      SVNParentPath /ssd/svn
@@ -28,6 +30,8 @@ Edit file below with nano and insert block of information inside file <b>dav_snv
      AuthUserFile /etc/apache2/dav_svn.passwd
      Require valid-user
 </Location>
+
+```
 
 Execute command below
 
