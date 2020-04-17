@@ -10,11 +10,11 @@ Create directory to SVN
 
 Execute svnadmin to initialize new project
 
-**`svnadmin create /ssd/svn/projects2`**
+**`svnadmin create /ssd/svn/your-repo`**
 
 Set permission at user www-data in the path of your project
 
-**`chown -R www-data:www-data /ssd/svn/projects2`**
+**`chown -R www-data:www-data /ssd/svn/your-repo`**
 
 Edit file below with nano and insert block of information inside file <b>dav_snv.conf</b>. After this, save and exit file.
 
